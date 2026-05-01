@@ -4,7 +4,7 @@ title: Sundays — Privacy Policy
 
 # Sundays — Privacy Policy
 
-**Last updated:** April 30, 2026
+**Last updated:** May 1, 2026
 
 Sundays is a weekly voice journal. Once a week you have a short call with an AI companion that listens; between calls, you can record voice notes or write quick text notes. This page explains what Sundays collects, where it goes, and what we do — and don't — do with it.
 
@@ -60,7 +60,20 @@ If you uninstall the app without deleting your account, the local cache on your 
 
 ## Encryption
 
-Data in transit between your phone and our processors is encrypted using standard HTTPS / TLS. Audio files in Supabase storage are encrypted at rest by Supabase. We do not implement custom encryption beyond what the platform provides; Sundays is therefore exempt from US export-control rules on encryption (`ITSAppUsesNonExemptEncryption = false`).
+Data in transit between your phone and our processors is encrypted using standard HTTPS / TLS. Audio files in Supabase storage are encrypted at rest by Supabase. Voice-note audio on your device is protected by iOS's `complete` file-protection class — files are only decryptable while your phone is unlocked. We do not implement custom application-level encryption beyond what the platform provides; Sundays is therefore exempt from US export-control rules on encryption (`ITSAppUsesNonExemptEncryption = false`).
+
+## Developer access (an honest disclosure)
+
+As the sole developer of Sundays, **Zarnab Virk has administrative access to the Supabase project** that hosts your transcripts, voice notes, themes, and summaries. This means I (Zarnab) could technically view stored data via the Supabase admin dashboard, even though the app's row-level security prevents one user from reading another user's rows.
+
+I do not actively review user data, and I never will except in three narrowly defined cases:
+- A specific bug report you send me where the data is necessary to reproduce the issue, and only with your explicit consent.
+- A legal compulsion (subpoena, court order) — which I would notify you about wherever permitted.
+- A safety review if a transcript is automatically flagged for crisis content and you've opted in to follow-up contact.
+
+This level of developer access is the standard model for solo-developed journaling apps at this stage (Day One, Bear, Roam, Notion, and most others have the same property, even when not explicitly stated in their policies). True end-to-end encryption — where the developer literally cannot decrypt your data — is incompatible with the AI-powered features Sundays depends on (theme extraction, the verbal reading, the search-your-Sundays chat). Those features require Anthropic to receive plaintext during processing.
+
+If this trade-off doesn't work for you, **don't use Sundays for content you wouldn't be comfortable with me being able to read.** I'd rather you know than feel surprised later.
 
 ## Children's privacy
 
