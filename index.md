@@ -71,9 +71,9 @@ I do not actively review user data, and I never will except in three narrowly de
 - A legal compulsion (subpoena, court order) — which I would notify you about wherever permitted.
 - A safety review if a transcript is automatically flagged for crisis content and you've opted in to follow-up contact.
 
-This level of developer access is the standard model for solo-developed journaling apps at this stage (Day One, Bear, Roam, Notion, and most others have the same property, even when not explicitly stated in their policies). True end-to-end encryption — where the developer literally cannot decrypt your data — is incompatible with the AI-powered features Sundays depends on (theme extraction, the verbal reading, the search-your-Sundays chat). Those features require Anthropic to receive plaintext during processing.
+**This level of access is similar to most journaling apps on the market.** Day One, Bear, Roam Research, Notion, Apple Journal, and almost every other journaling product have the same property at rest: their teams have administrative access to your stored content. Some say so explicitly in their privacy policy; many don't. True end-to-end encryption — where the developer literally cannot decrypt your data — is incompatible with the AI-powered features Sundays depends on (theme extraction, the verbal reading, the search-your-Sundays chat). Those features require Anthropic to receive plaintext during processing.
 
-If this trade-off doesn't work for you, **don't use Sundays for content you wouldn't be comfortable with me being able to read.** I'd rather you know than feel surprised later.
+A more private mode — where specific notes you mark as "private" are encrypted client-side and bypass all AI features — is on the v2 roadmap. Until then, **if a particular reflection feels too sensitive to share given that I could technically read it, don't share it here.** I'd rather you know than feel surprised later.
 
 ## Children's privacy
 
