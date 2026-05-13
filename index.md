@@ -4,7 +4,7 @@ title: Sundays — Privacy Policy
 
 # Sundays — Privacy Policy
 
-**Last updated:** May 1, 2026
+**Last updated:** May 12, 2026
 
 Sundays is a weekly voice journal. Once a week you have a short call with an AI companion that listens; between calls, you can record voice notes or write quick text notes. This page explains what Sundays collects, where it goes, and what we do — and don't — do with it.
 
@@ -16,13 +16,16 @@ If you have a question that this page doesn't answer, email **[zarnabvirk@gmail.
 
 When you use Sundays, the following gets stored:
 
-- **Audio recordings** — your weekly Sunday call and any voice notes you record between calls. By default these are saved on your phone and synced to our backend. You can turn off audio retention in Settings → Privacy ("transcript only" mode), in which case the audio file is deleted after transcription and only the text is kept.
-- **Transcripts** — the text version of what you said, generated automatically (on-device for voice notes, server-side via ElevenLabs for the live weekly call).
+- **Audio recordings** — your weekly Sunday call and any voice notes you record between calls. By default these are saved on your phone and synced to our backend (Supabase Storage, private bucket scoped to your account). You can turn off audio retention in Settings → Privacy ("transcript only" mode), in which case the audio file is deleted after transcription and only the text is kept.
+- **Handwriting photos** — if you upload a photo of a handwritten journal entry, the image is saved on your phone and synced to our backend (Supabase Storage, private bucket scoped to your account). The image is also sent to Anthropic's Claude vision model for one-time OCR; only the resulting transcript is retained server-side beyond the original.
+- **Transcripts** — the text version of what you said, generated automatically (on-device for voice notes, server-side via ElevenLabs for the live weekly call, by Claude vision for handwriting uploads).
 - **Quick text notes** — anything you type into the app yourself.
 - **Themes, summaries, and pull-quotes** — short pieces of text derived from your transcripts by an AI processor (Anthropic's Claude). These power the Insights tab.
+- **Semantic embeddings** — a 1,536-number vector representation of each transcript, computed by OpenAI's `text-embedding-3-small` model. Embeddings power the "Search your mind" chat in Insights by letting us find notes by meaning, not just keyword. Each embedding is generated once when a transcript is created or updated; the original transcript text is sent to OpenAI only for that embedding call.
+- **Calendar event titles** (optional) — if you enable "Capture moments after events" in Settings, Sundays reads your iOS Calendar for upcoming personal/social events and sends event titles to Anthropic for a one-pass classification (is this a meaningful moment to prompt about?). Only the title is sent — not attendees, location, or notes. Event content stays on your device.
 - **Onboarding choices** — the goals you select, your preferred weekly call slot, and your time zone.
 - **Names you mention** — when you say someone's name during a call or note, it's extracted as a tag so you can see who comes up in your weeks. This is just a string of letters; it doesn't link to that person's contact info or any external profile.
-- **An anonymous account ID** — Sundays doesn't ask you to sign up with an email or password. Your data is tied to an anonymous identifier provisioned on first launch (via Supabase Auth) and to the Apple ID associated with your TestFlight or App Store install.
+- **An anonymous account ID** — Sundays doesn't ask you to sign up with an email or password. Your data is tied to an anonymous identifier provisioned on first launch (via Supabase Auth) and to the Apple ID associated with your TestFlight or App Store install. If you Sign in with Apple, the same anonymous account upgrades to your Apple-linked account so your data follows you across devices.
 
 ## What Sundays does NOT collect
 
@@ -38,9 +41,10 @@ Sundays uses a small set of third-party processors. Each has its own privacy pol
 
 | Processor | What it does | Their privacy policy |
 |---|---|---|
-| **Supabase** | Hosts the database (Postgres) and audio storage where your transcripts, summaries, themes, and audio files are saved. | [supabase.com/privacy](https://supabase.com/privacy) |
+| **Supabase** | Hosts the database (Postgres) and the private storage buckets where your transcripts, summaries, themes, audio recordings, and handwriting photos live. | [supabase.com/privacy](https://supabase.com/privacy) |
 | **ElevenLabs** | Powers the real-time weekly Sunday call: streams your voice in, runs speech-to-text, generates the AI companion's voice. The agent system prompt and your live transcript are sent to ElevenLabs during the call only. | [elevenlabs.io/privacy](https://elevenlabs.io/privacy) |
-| **Anthropic** | The Claude language model that summarizes your call, extracts themes and names, generates the verbal reading, and answers your "Ask your past Sundays" chat queries. Transcripts are sent to Anthropic only when you trigger one of those features. | [anthropic.com/legal/privacy](https://www.anthropic.com/legal/privacy) |
+| **Anthropic** | The Claude language model that summarizes your call, extracts themes and names, OCRs your handwriting photos, classifies calendar events (if you opt in to that feature), generates the verbal reading, and synthesizes answers in the "Search your mind" chat. Transcripts are sent to Anthropic only when you trigger one of those features. | [anthropic.com/legal/privacy](https://www.anthropic.com/legal/privacy) |
+| **OpenAI** | Generates the semantic embedding (a list of numbers, no human-readable content) for each transcript so the "Search your mind" chat can find notes by meaning instead of keyword. Embeddings are generated once per note and used by Sundays internally; OpenAI does not retain transcript content beyond the API call per their data policy. | [openai.com/policies/privacy-policy](https://openai.com/policies/privacy-policy) |
 | **Apple (StoreKit)** | If you subscribe to a paid tier in the future, Apple handles billing. Apple does not share your real name or email with us. | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
 
 We don't share your data with anyone outside of these processors, and only for the specific purposes above.
@@ -60,7 +64,7 @@ If you uninstall the app without deleting your account, the local cache on your 
 
 ## Encryption
 
-Data in transit between your phone and our processors is encrypted using standard HTTPS / TLS. Audio files in Supabase storage are encrypted at rest by Supabase. Voice-note audio on your device is protected by iOS's `complete` file-protection class — files are only decryptable while your phone is unlocked. We do not implement custom application-level encryption beyond what the platform provides; Sundays is therefore exempt from US export-control rules on encryption (`ITSAppUsesNonExemptEncryption = false`).
+Data in transit between your phone and our processors is encrypted using standard HTTPS / TLS. Audio and image files in Supabase storage are encrypted at rest by Supabase, scoped to your account via row-level security (no other user can read them, only you and a service-role admin pass). On-device audio and handwriting images are protected by iOS's `complete` file-protection class — files are only decryptable while your phone is unlocked. We do not implement custom application-level encryption beyond what the platform provides; Sundays is therefore exempt from US export-control rules on encryption (`ITSAppUsesNonExemptEncryption = false`).
 
 ## Developer access (an honest disclosure)
 
