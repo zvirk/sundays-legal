@@ -1,5 +1,5 @@
 ---
-title: Sundays — Privacy Policy
+title: Sundays — Privacy Policy & Terms of Use
 ---
 
 # Sundays — Privacy Policy
@@ -108,5 +108,98 @@ If this policy changes meaningfully, we'll update the "Last updated" date at the
 ## Contact
 
 Sundays is built by Zarnab Virk. For privacy questions, deletion requests, or anything else legal-related:
+
+📧 **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**
+
+---
+
+# Sundays — Terms of Use
+
+**Last updated:** May 19, 2026
+
+These Terms of Use ("Terms") govern your use of the Sundays mobile application ("Sundays," "the App," "we," "us"). By creating an account or using Sundays, you agree to these Terms. If you do not agree, please do not use Sundays.
+
+## 1. Eligibility
+
+You must be at least 13 years old to use Sundays. If you are between 13 and 18, you represent that you have your parent or guardian's permission to use the App. Sundays is not directed at children under 13, and we do not knowingly collect information from them — see the Children's privacy section in the Privacy Policy above.
+
+## 2. The Service
+
+Sundays is a journaling app built around a once-a-week voice conversation with an AI agent. The App records, transcribes, summarizes, and surfaces long-term patterns from what you share. Specific features may evolve over time.
+
+## 3. Your Content
+
+Everything you record, write, or upload in Sundays — voice notes, transcripts, text entries, handwriting images — is yours. You retain all rights to it.
+
+By using the App, you grant Sundays a limited, non-exclusive license to process your content solely to provide the Service: transcribe audio, generate summaries, extract themes, and surface insights back to you. We do not use your content to train machine-learning models, and we do not share it with third parties except the infrastructure providers necessary to deliver the Service (disclosed in the Privacy Policy above).
+
+## 4. Subscriptions
+
+### Trial and renewal
+
+Sundays is a paid subscription with a 30-day free introductory trial. After the trial, your selected tier renews automatically at the price displayed in the App at the time of purchase (currently $7.99 USD/month or $59 USD/year), unless you cancel.
+
+### How billing works
+
+Payment is charged to your Apple ID account at confirmation of purchase. Subscriptions automatically renew at the end of each period unless auto-renew is turned off at least 24 hours before the end of the current period. The account is charged for renewal within 24 hours before the end of the current period. You can manage and cancel subscriptions in your Apple ID's Subscriptions settings.
+
+### Refunds
+
+Subscription refunds are handled by Apple under their standard refund policy. Requests can be submitted at [reportaproblem.apple.com](https://reportaproblem.apple.com). Sundays does not issue refunds directly.
+
+### Free-trial eligibility
+
+The introductory free trial is available once per Apple ID per subscription group. Subsequent re-subscriptions — including after cancellation — may not be eligible for another free trial; Apple determines eligibility.
+
+## 5. AI and professional care
+
+Sundays uses AI (third-party speech and language models, disclosed in the Privacy Policy) to power the conversation, the transcription, and the insights it surfaces. The AI agent is not a therapist, counselor, doctor, or mental-health professional, and Sundays is not a substitute for professional mental-health care, diagnosis, or treatment.
+
+If you are in crisis or considering harming yourself or others, please contact emergency services or a qualified professional immediately. AI-generated content can be inaccurate, incomplete, or out of context. Do not rely on Sundays for medical, psychological, legal, financial, or other professional advice.
+
+## 6. Acceptable use
+
+You agree not to use Sundays to:
+
+- Violate any law or the rights of any third party.
+- Share content that is illegal, infringing, harassing, or fraudulent.
+- Attempt to reverse-engineer, scrape, or otherwise access non-public parts of the Service.
+- Use the Service to build a competing product.
+
+## 7. Termination
+
+You may delete your account at any time from within the App (Settings → Delete account). Account deletion permanently removes your data from Sundays' servers, subject to the retention details in the Privacy Policy above.
+
+We may suspend or terminate your access if you materially breach these Terms. If we terminate your account for breach, no refunds will be issued.
+
+## 8. Intellectual property
+
+The Sundays name, app, design, and software are owned by Zarnab Virk. You may not copy, modify, or redistribute the App or its content except as permitted by these Terms and applicable law.
+
+## 9. Disclaimer of warranties
+
+Sundays is provided "as is" and "as available," without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the Service will be uninterrupted, error-free, or secure.
+
+## 10. Limitation of liability
+
+To the maximum extent permitted by law, Zarnab Virk and Sundays will not be liable for any indirect, incidental, special, consequential, or punitive damages — including loss of data, loss of revenue, or emotional distress — arising out of or related to your use of the Service. Total liability for any claim relating to the Service will not exceed the amount you have paid to Sundays in the twelve months preceding the claim.
+
+Some jurisdictions do not allow the exclusion or limitation of certain warranties or liabilities, so the limitations above may not apply to you.
+
+## 11. Indemnification
+
+You agree to indemnify and hold harmless Zarnab Virk and Sundays from any claim or demand arising from your breach of these Terms or your misuse of the Service.
+
+## 12. Governing law
+
+These Terms are governed by the laws of the State of New York, United States, without regard to its conflict-of-laws principles. Any dispute will be resolved in the state or federal courts located in New York County, New York, and you consent to the jurisdiction of those courts.
+
+## 13. Changes to these Terms
+
+We may update these Terms from time to time. If a change is material, we will notify you within the App or by email before the change takes effect. Continued use of the Service after the effective date constitutes acceptance.
+
+## 14. Contact
+
+Questions about these Terms can be sent to:
 
 📧 **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**
