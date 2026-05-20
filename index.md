@@ -137,7 +137,7 @@ By using the App, you grant Sundays a limited, non-exclusive license to process 
 
 ### Trial and renewal
 
-Sundays is a paid subscription with a 30-day free introductory trial. After the trial, your selected tier renews automatically at the price displayed in the App at the time of purchase (currently $7.99 USD/month or $59 USD/year), unless you cancel.
+Sundays is a paid subscription with a 30-day free introductory trial. After the trial, your selected tier renews automatically at the price displayed in the App at the time of purchase (currently $7.99 USD/month or $69.99 USD/year), unless you cancel.
 
 ### How billing works
 
