@@ -2,6 +2,13 @@
 title: Sundays — Privacy Policy & Terms of Use
 ---
 
+This page covers two things:
+
+1. **[Privacy Policy](#sundays--privacy-policy)** — what we collect, where it goes, and what we don't do with it.
+2. **[Terms of Use](#sundays--terms-of-use)** — the rules of the road for using Sundays, including subscription terms.
+
+---
+
 # Sundays — Privacy Policy
 
 **Last updated:** May 12, 2026
@@ -115,6 +122,7 @@ Sundays is built by Zarnab Virk. For privacy questions, deletion requests, or an
 
 # Sundays — Terms of Use
 
+<<<<<<< HEAD
 **Last updated:** May 19, 2026
 
 These Terms of Use ("Terms") govern your use of the Sundays mobile application ("Sundays," "the App," "we," "us"). By creating an account or using Sundays, you agree to these Terms. If you do not agree, please do not use Sundays.
@@ -201,5 +209,103 @@ We may update these Terms from time to time. If a change is material, we will no
 ## 14. Contact
 
 Questions about these Terms can be sent to:
+=======
+**Last updated:** May 31, 2026
+
+These terms are the agreement between you and Zarnab Virk (the developer of Sundays, "we" / "us") for using the Sundays iOS app. They're written to be readable. If anything's unclear, email **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**.
+
+By installing or using Sundays, you agree to these terms. If you don't agree, please don't use the app.
+
+## What Sundays is
+
+Sundays is a personal voice-journaling app. Once a week you have a short call with an AI companion that listens; between calls, you can record voice notes, write quick text notes, or upload handwriting. The app stores transcripts, themes, and short reflections derived from what you share.
+
+**Sundays is not a mental-health service.** It is not therapy, not counseling, not crisis support, not medical care, not diagnosis, not treatment. Don't use Sundays as a substitute for those things. If you're in crisis, please contact a real human resource — 988 (US), 116 123 (UK), 112 (EU) — or your local emergency number.
+
+## Who can use Sundays
+
+You must be at least **13 years old** to use Sundays. By using the app, you confirm that you meet this age requirement. We don't knowingly collect data from anyone under 13 — see the Privacy Policy above for details.
+
+## Your account
+
+Sundays creates an anonymous account for you on first launch. You can optionally Sign in with Apple to link that account to your Apple ID so your data follows you across devices. You're responsible for keeping your Apple ID secure; we don't see your Apple ID password or full name (Apple only shares a private relay email and, optionally, a display name when you Sign in with Apple).
+
+You can delete your account at any time via **Settings → Delete account**. This wipes your data from our backend and is irreversible.
+
+## Subscription and billing
+
+Sundays is a paid app delivered through Apple's StoreKit. Subscriptions are billed by Apple, not by us.
+
+- **Pricing**: $7.99 / month or $69.99 / year. Prices are localized in non-US markets and may vary slightly with exchange rates.
+- **Free trial**: a 30-day free trial is included on first purchase. Eligibility is determined by Apple based on your Apple ID's prior subscription history.
+- **Auto-renewal**: subscriptions automatically renew at the end of each billing period at the standard price unless you cancel at least 24 hours before the end of the current period. Your Apple ID is charged at confirmation of purchase and at each renewal.
+- **Managing your subscription**: open **Settings → Manage subscription** in the app, or go to **iPhone Settings → Apple ID → Subscriptions**. You can cancel anytime, and the cancellation takes effect at the end of the current billing period — you keep access until then.
+- **Refunds**: refunds are handled by Apple, not by us. Request a refund at [reportaproblem.apple.com](https://reportaproblem.apple.com).
+- **Lapsed access**: if your subscription lapses (you cancel and the period ends, or a renewal fails), the app surfaces a paywall that requires re-subscribing to continue using Sundays. Your stored data remains in your account; you can delete it via Settings before re-subscribing if you'd rather not return.
+
+## Acceptable use
+
+Don't use Sundays to:
+
+- Share content that's unlawful, threatens or harasses anyone else, or violates someone else's privacy.
+- Attempt to reverse-engineer, decompile, or extract source code from the app.
+- Probe for vulnerabilities or interfere with the service's normal operation — if you find a security issue, please email us (see Contact below) and we'll work with you.
+- Resell, redistribute, or sublicense access to the app or your subscription.
+- Use the app to build a competing product, train a machine-learning model, or systematically extract content.
+
+## What you own, what we own
+
+**You own your content.** Everything you say into a call, record as a voice note, type as a text note, or upload as handwriting is yours. We process that content as described in the Privacy Policy above (transcribing, summarizing, extracting themes) so the app can show it back to you in useful ways. We don't claim ownership of it, and we don't use it to train any model.
+
+**We own the app itself.** The Sundays iOS app, its source code, its design, the brand name, the AI companion's voice and persona, the literary copy throughout the product, and the infrastructure that runs it are owned by Zarnab Virk. The license we're granting you when you subscribe is a personal, non-exclusive, non-transferable, revocable license to use the app for its intended purpose.
+
+## AI-generated content
+
+Sundays uses third-party AI services (see the Privacy Policy table) to generate transcripts, summaries, themes, names, pull-quotes, the verbal weekly reading, and answers in the "Search your mind" chat. These outputs are produced by machine-learning models and may contain mistakes — misheard words, names spelled wrong, themes that don't fully capture what you meant, summaries that miss the point. You can fix any of these in-app (rename a person, edit a note, dismiss a theme).
+
+We don't guarantee accuracy, completeness, or fitness for any particular purpose. Treat AI-generated content as a starting point for your own reflection, not as ground truth about yourself or anyone else you mention.
+
+## Disclaimers
+
+Sundays is provided **"as is" and "as available."** We don't warrant that the app will be uninterrupted, error-free, secure, or that the AI features will always behave as expected. We don't warrant that any specific outcome — emotional, psychological, productivity-related, or otherwise — will result from using the app.
+
+To the maximum extent allowed by law, we disclaim all implied warranties, including merchantability, fitness for a particular purpose, and non-infringement.
+
+## Limitation of liability
+
+To the maximum extent allowed by law, our total liability to you for any claim arising out of or relating to your use of Sundays — whether in contract, tort, or otherwise — is limited to the greater of (a) the amount you've paid us for subscriptions in the 12 months immediately preceding the claim, or (b) $50 USD.
+
+We're not liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data, loss of profits, or emotional distress, even if we've been advised of the possibility of such damages.
+
+Some jurisdictions don't allow these limitations; in those places, our liability is limited to the maximum extent permitted by local law.
+
+## Termination
+
+You can stop using Sundays at any time by canceling your subscription and/or deleting your account. We can suspend or terminate your access if you materially violate these terms (e.g. the Acceptable Use section), at which point your subscription benefits end without refund of any unused period. We'll give you notice and a reasonable chance to fix the issue first unless the violation is severe enough that immediate suspension is warranted.
+
+If we ever discontinue Sundays as a product, we'll give you reasonable notice in-app and via email (where we have one), make an export of your data available, and refund any unused portion of a paid subscription period.
+
+## Changes to these terms
+
+If we change these terms in a way that materially affects your rights or obligations, we'll update the "Last updated" date at the top, surface a notice in-app the next time you open Sundays, and (for material changes) give you a chance to review before they take effect on your account. Minor edits (typos, clarifications) don't trigger a notice — but the canonical version always lives at this URL.
+
+## Governing law
+
+These terms are governed by the laws of the State of New York, USA, without regard to its conflict-of-law principles. Any dispute that can't be resolved by email goes to the courts of New York County, NY — except where your local consumer protection laws give you a non-waivable right to sue elsewhere, in which case those rights apply.
+
+## Apple-specific terms
+
+Because Sundays is distributed through the App Store, the following additional terms apply:
+
+- These terms are between you and Zarnab Virk only, not with Apple. Apple isn't responsible for Sundays or its content.
+- Apple has no obligation to provide maintenance or support for Sundays.
+- If Sundays fails to conform to any warranty, you may notify Apple and Apple will refund the purchase price (if applicable); beyond that, Apple has no warranty obligation.
+- Any claim that Sundays or your use of it violates a third party's intellectual property is our responsibility, not Apple's, to the extent allowed by these terms.
+- Apple and its subsidiaries are third-party beneficiaries of these terms and may enforce them against you.
+
+## Contact
+
+For terms-related questions, support, refund requests we can help with directly, or anything else:
+>>>>>>> 2bb2467 (Add Terms of Use section to legal page)
 
 📧 **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**
