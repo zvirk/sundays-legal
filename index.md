@@ -15,7 +15,7 @@ This page covers two things:
 
 Sundays is a weekly voice journal. Once a week you have a short call with an AI companion that listens; between calls, you can record voice notes or write quick text notes. This page explains what Sundays collects, where it goes, and what we do — and don't — do with it.
 
-If you have a question that this page doesn't answer, email **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**.
+If you have a question that this page doesn't answer, email **[hello@getsundaysapp.com](mailto:hello@getsundaysapp.com)**.
 
 ---
 
@@ -75,7 +75,7 @@ Data in transit between your phone and our processors is encrypted using standar
 
 ## Developer access (an honest disclosure)
 
-As the sole developer of Sundays, **Zarnab Virk has administrative access to the Supabase project** that hosts your transcripts, voice notes, themes, and summaries. This means I (Zarnab) could technically view stored data via the Supabase admin dashboard, even though the app's row-level security prevents one user from reading another user's rows.
+**Sundays Media LLC has administrative access to the Supabase project** that hosts your transcripts, voice notes, themes, and summaries. This means stored data could technically be viewed via the Supabase admin dashboard, even though the app's row-level security prevents one user from reading another user's rows.
 
 I do not actively review user data, and I never will except in three narrowly defined cases:
 - A specific bug report you send me where the data is necessary to reproduce the issue, and only with your explicit consent.
@@ -106,7 +106,7 @@ Depending on where you live, you may have specific rights under privacy laws (GD
 - **Portability** — your exported JSON is yours to take wherever.
 - **Object to processing** — stop using Sundays at any time; data deletion is in your control.
 
-To exercise any right not covered by an in-app action, email **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**.
+To exercise any right not covered by an in-app action, email **[hello@getsundaysapp.com](mailto:hello@getsundaysapp.com)**.
 
 ## Changes to this policy
 
@@ -114,9 +114,9 @@ If this policy changes meaningfully, we'll update the "Last updated" date at the
 
 ## Contact
 
-Sundays is built by Zarnab Virk. For privacy questions, deletion requests, or anything else legal-related:
+Sundays is built and operated by Sundays Media LLC. For privacy questions, deletion requests, or anything else legal-related:
 
-📧 **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**
+📧 **[hello@getsundaysapp.com](mailto:hello@getsundaysapp.com)**
 
 ---
 
@@ -182,7 +182,7 @@ We may suspend or terminate your access if you materially breach these Terms. If
 
 ## 8. Intellectual property
 
-The Sundays name, app, design, and software are owned by Zarnab Virk. You may not copy, modify, or redistribute the App or its content except as permitted by these Terms and applicable law.
+The Sundays name, app, design, and software are owned by Sundays Media LLC. You may not copy, modify, or redistribute the App or its content except as permitted by these Terms and applicable law.
 
 ## 9. Disclaimer of warranties
 
@@ -190,13 +190,13 @@ Sundays is provided "as is" and "as available," without warranties of any kind, 
 
 ## 10. Limitation of liability
 
-To the maximum extent permitted by law, Zarnab Virk and Sundays will not be liable for any indirect, incidental, special, consequential, or punitive damages — including loss of data, loss of revenue, or emotional distress — arising out of or related to your use of the Service. Total liability for any claim relating to the Service will not exceed the amount you have paid to Sundays in the twelve months preceding the claim.
+To the maximum extent permitted by law, Sundays Media LLC and Sundays will not be liable for any indirect, incidental, special, consequential, or punitive damages — including loss of data, loss of revenue, or emotional distress — arising out of or related to your use of the Service. Total liability for any claim relating to the Service will not exceed the amount you have paid to Sundays in the twelve months preceding the claim.
 
 Some jurisdictions do not allow the exclusion or limitation of certain warranties or liabilities, so the limitations above may not apply to you.
 
 ## 11. Indemnification
 
-You agree to indemnify and hold harmless Zarnab Virk and Sundays from any claim or demand arising from your breach of these Terms or your misuse of the Service.
+You agree to indemnify and hold harmless Sundays Media LLC and Sundays from any claim or demand arising from your breach of these Terms or your misuse of the Service.
 
 ## 12. Governing law
 
@@ -212,7 +212,7 @@ Questions about these Terms can be sent to:
 =======
 **Last updated:** May 31, 2026
 
-These terms are the agreement between you and Zarnab Virk (the developer of Sundays, "we" / "us") for using the Sundays iOS app. They're written to be readable. If anything's unclear, email **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**.
+These terms are the agreement between you and Sundays Media LLC (the developer of Sundays, "we" / "us") for using the Sundays iOS app. They're written to be readable. If anything's unclear, email **[hello@getsundaysapp.com](mailto:hello@getsundaysapp.com)**.
 
 By installing or using Sundays, you agree to these terms. If you don't agree, please don't use the app.
 
@@ -257,7 +257,7 @@ Don't use Sundays to:
 
 **You own your content.** Everything you say into a call, record as a voice note, type as a text note, or upload as handwriting is yours. We process that content as described in the Privacy Policy above (transcribing, summarizing, extracting themes) so the app can show it back to you in useful ways. We don't claim ownership of it, and we don't use it to train any model.
 
-**We own the app itself.** The Sundays iOS app, its source code, its design, the brand name, the AI companion's voice and persona, the literary copy throughout the product, and the infrastructure that runs it are owned by Zarnab Virk. The license we're granting you when you subscribe is a personal, non-exclusive, non-transferable, revocable license to use the app for its intended purpose.
+**We own the app itself.** The Sundays iOS app, its source code, its design, the brand name, the AI companion's voice and persona, the literary copy throughout the product, and the infrastructure that runs it are owned by Sundays Media LLC. The license we're granting you when you subscribe is a personal, non-exclusive, non-transferable, revocable license to use the app for its intended purpose.
 
 ## AI-generated content
 
@@ -297,7 +297,7 @@ These terms are governed by the laws of the State of New York, USA, without rega
 
 Because Sundays is distributed through the App Store, the following additional terms apply:
 
-- These terms are between you and Zarnab Virk only, not with Apple. Apple isn't responsible for Sundays or its content.
+- These terms are between you and Sundays Media LLC only, not with Apple. Apple isn't responsible for Sundays or its content.
 - Apple has no obligation to provide maintenance or support for Sundays.
 - If Sundays fails to conform to any warranty, you may notify Apple and Apple will refund the purchase price (if applicable); beyond that, Apple has no warranty obligation.
 - Any claim that Sundays or your use of it violates a third party's intellectual property is our responsibility, not Apple's, to the extent allowed by these terms.
@@ -308,4 +308,4 @@ Because Sundays is distributed through the App Store, the following additional t
 For terms-related questions, support, refund requests we can help with directly, or anything else:
 >>>>>>> 2bb2467 (Add Terms of Use section to legal page)
 
-📧 **[zarnabvirk@gmail.com](mailto:zarnabvirk@gmail.com)**
+📧 **[hello@getsundaysapp.com](mailto:hello@getsundaysapp.com)**
